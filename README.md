@@ -159,24 +159,28 @@ I have filled the world size with 100 tiles in width and 100 tiles in height, an
 
 ### Map had been set
 
-When you launch `ClayPOT.exe`, you'll see the **Main Menu**:
-
-![Engine Startup](./Steps/5.PNG)
-
-
 #### Editor Mode
-- **Left Click**: Select and place tiles
-- **Right Click**: Remove tiles
-- **Scroll**: Zoom in/out
-- **Middle Mouse**: Pan the view
+- **Tab**: Hide and display tile selector panel
+- **Left Click**: To select tile from selector and after pressing tab, to add tiles to map
+- **Right Click**: Remove Tiles
+- **WASD**: Move camera aound editor
+- **WASD**: While inside selector move around selector
+- **Arrows keys**: Move around selected tile
+- **U**: Increase the level of tile type
+- **I**: Decrease the level of tile type
+- **Note the tile type is the rendering order of tile if is 0 means would be at bottom is is 1 means always on top if is 2 means will be dynamically rendered determined by depth sorting of the position of grids object.**
+
+After setting world bounds, you have successfully created the map boundries, now it's time to make the world alive.
+The current state you are seeing is editor, where the state is aimed to make the whole game by simple drag and drop, the current engine code does not allow user to add the player and enemies by it's own, it only allows user to make maps for games to test level. How ever in future developer aims to make fully functional drag and drop editor state.
+Create your own map by the sprite sheet you have added(there is added sprite sheet in the engine exe feel free to use it). Save it, hit play on the top 
+![Engine Startup](./Steps/5.PNG)
 
 
 ### Main Menu State
 
-Click the **File** button in the menu to access the following options:
+This is the main menu state
 
 ![File Menu Dropdown](./Steps/6.PNG)
-
 
 #### Available Options:
 
@@ -224,34 +228,6 @@ ClayPOT/
 ├── README.md                      # This file
 └── LICENSE                        # Project license
 ```
----
-
-## 🎮 Example: Creating a Simple Levels
-
-1. **Open Level Editor**
-   - Click File → Level Editor from the main menu
-
-2. **Paint Terrain**
-   - Select grass tile from the tile palette
-   - Click on the grid to place tiles
-   - Create a playable walking area
-
-3. **Add Obstacles**
-   - Select wall or tree tiles
-   - Place them to create maze-like structures
-   - Right-click to remove tiles
-
-4. **Place Entities**
-   - Click "Add Enemy" button
-   - Position enemy on the map
-   - Repeat for multiple enemies
-
-5. **Save Your Level**
-   - File → Save Map
-   - Enter map name and location
-   - Use in your game via the level loader
-
----
 
 ## 🔧 Troubleshooting
 

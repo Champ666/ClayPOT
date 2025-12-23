@@ -75,7 +75,7 @@ Traditional game engines like Unreal and Unity abstract away the underlying comp
 | Component | Technology | Version |
 |-----------|-----------|---------|
 | **Language** | C++ | C++17 |
-| **Graphics Library** | SFML | 2.5+ |
+| **Graphics Library** | SFML | 3+ |
 | **IDE** | Visual Studio | 2022 |
 | **Build System** | MSBuild | 17.0+ |
 

@@ -1,0 +1,6 @@
+Title: ClayPOT
+Resolution: 800 600
+FullScreen: 0
+FrameRate: 120
+Verticle Sync: 0
+Anti-Analiasing Level: 0

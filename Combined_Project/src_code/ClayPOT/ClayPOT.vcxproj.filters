@@ -1,0 +1,389 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="States">
+      <UniqueIdentifier>{ab3dbea1-c038-4430-a381-b5ba6e65dfd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities">
+      <UniqueIdentifier>{3bcc24c8-4c85-4400-8abb-1a1ff839cb02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components">
+      <UniqueIdentifier>{39346ddf-337d-4caa-80f1-5d103ecdbb47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI">
+      <UniqueIdentifier>{a31555e0-f07c-4565-9484-4644c7d8df3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Map">
+      <UniqueIdentifier>{fd71ea74-c3c1-4780-b4c7-b2b72fc47378}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Item">
+      <UniqueIdentifier>{1b644a45-1ba0-4b65-acbf-39b2bf6de70e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Item\MeleeWeapon">
+      <UniqueIdentifier>{2ddbcdea-9378-4dc1-850a-514c51409de7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Item\RangedWeapon">
+      <UniqueIdentifier>{65356809-ce06-418f-b278-6e20e7cd70c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Map\Tile">
+      <UniqueIdentifier>{7eafb74d-1455-48f8-8d91-499aa9b5179b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="States\EditorModes">
+      <UniqueIdentifier>{0b1f6aef-fa5a-4f31-ab90-d048cb00424f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AISystem">
+      <UniqueIdentifier>{8060f4d7-a080-4fb6-ae71-3e0bc5f5076f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AISystem\AIBrain">
+      <UniqueIdentifier>{9b01f0c9-490f-4b01-9b34-68a67344f17f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AISystem\AITakSheduler">
+      <UniqueIdentifier>{be44ce75-9d58-447f-b580-79fd1dc082d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AISystem\AITakSheduler\AITaksNodes">
+      <UniqueIdentifier>{5f9409fe-20f9-42cc-8bc6-e56e116eb864}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="State.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenuState.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="MovementComponent.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationComponent.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorState.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="HitboxComponent.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile.cpp">
+      <Filter>Map\Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="PauseMenu.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="SettingState.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="TileMap.cpp">
+      <Filter>Map</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsSettings.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Gui.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="AttributeComponent.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerGUI.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderable.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>Item</Filter>
+    </ClCompile>
+    <ClCompile Include="MeleeWeapon.cpp">
+      <Filter>Item\MeleeWeapon</Filter>
+    </ClCompile>
+    <ClCompile Include="Sword.cpp">
+      <Filter>Item\MeleeWeapon</Filter>
+    </ClCompile>
+    <ClCompile Include="RangedWeapon.cpp">
+      <Filter>Item\RangedWeapon</Filter>
+    </ClCompile>
+    <ClCompile Include="Bow.cpp">
+      <Filter>Item\RangedWeapon</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillComponent.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="AIPlayer.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="NPC.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorMode.cpp">
+      <Filter>States\EditorModes</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyEditorMode.cpp">
+      <Filter>States\EditorModes</Filter>
+    </ClCompile>
+    <ClCompile Include="DefaultEditorMode.cpp">
+      <Filter>States\EditorModes</Filter>
+    </ClCompile>
+    <ClCompile Include="AIBlackBoard.cpp">
+      <Filter>AISystem\AIBrain</Filter>
+    </ClCompile>
+    <ClCompile Include="AIComponent.cpp">
+      <Filter>AISystem\AIBrain</Filter>
+    </ClCompile>
+    <ClCompile Include="BehaviourTree.cpp">
+      <Filter>AISystem\AIBrain</Filter>
+    </ClCompile>
+    <ClCompile Include="CompositeNodes.cpp">
+      <Filter>AISystem\AITakSheduler</Filter>
+    </ClCompile>
+    <ClCompile Include="TestNode.cpp">
+      <Filter>AISystem\AITakSheduler\AITaksNodes</Filter>
+    </ClCompile>
+    <ClCompile Include="CombatNode.cpp">
+      <Filter>AISystem\AITakSheduler\AITaksNodes</Filter>
+    </ClCompile>
+    <ClCompile Include="DeathNode.cpp">
+      <Filter>AISystem\AITakSheduler\AITaksNodes</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionNodes.cpp">
+      <Filter>AISystem\AITakSheduler\AITaksNodes</Filter>
+    </ClCompile>
+    <ClCompile Include="Task.cpp">
+      <Filter>AISystem\AITakSheduler\AITaksNodes</Filter>
+    </ClCompile>
+    <ClCompile Include="TaskManager.cpp">
+      <Filter>AISystem\AITakSheduler</Filter>
+    </ClCompile>
+    <ClCompile Include="TaskNodes.cpp">
+      <Filter>AISystem\AITakSheduler\AITaksNodes</Filter>
+    </ClCompile>
+    <ClCompile Include="AIManager.cpp">
+      <Filter>AISystem\AIBrain</Filter>
+    </ClCompile>
+    <ClCompile Include="Routine.cpp">
+      <Filter>AISystem\AITakSheduler</Filter>
+    </ClCompile>
+    <ClCompile Include="RoutineManager.cpp">
+      <Filter>AISystem\AITakSheduler</Filter>
+    </ClCompile>
+    <ClCompile Include="RoutineNodes.cpp">
+      <Filter>AISystem\AITakSheduler\AITaksNodes</Filter>
+    </ClCompile>
+    <ClCompile Include="AttackComponent.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="CombatNodes.cpp">
+      <Filter>AISystem\AITakSheduler\AITaksNodes</Filter>
+    </ClCompile>
+    <ClCompile Include="AStarComponent.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundLibrary.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FontLibrary.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Engine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenuState.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="MovementComponent.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationComponent.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorState.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="HitboxComponent.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.h">
+      <Filter>Map\Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="PauseMenu.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="SettingState.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="TileMap.h">
+      <Filter>Map</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsSettings.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="AttributeComponent.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerGUI.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderable.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>Item</Filter>
+    </ClInclude>
+    <ClInclude Include="MeleeWeapon.h">
+      <Filter>Item\MeleeWeapon</Filter>
+    </ClInclude>
+    <ClInclude Include="Sword.h">
+      <Filter>Item\MeleeWeapon</Filter>
+    </ClInclude>
+    <ClInclude Include="RangedWeapon.h">
+      <Filter>Item\RangedWeapon</Filter>
+    </ClInclude>
+    <ClInclude Include="Bow.h">
+      <Filter>Item\RangedWeapon</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillComponent.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="AIPlayer.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="NPC.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorMode.h">
+      <Filter>States\EditorModes</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyEditorMode.h">
+      <Filter>States\EditorModes</Filter>
+    </ClInclude>
+    <ClInclude Include="DefaultEditorMode.h">
+      <Filter>States\EditorModes</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorModes.h">
+      <Filter>States\EditorModes</Filter>
+    </ClInclude>
+    <ClInclude Include="AIBlackBoard.h">
+      <Filter>AISystem\AIBrain</Filter>
+    </ClInclude>
+    <ClInclude Include="AIComponent.h">
+      <Filter>AISystem\AIBrain</Filter>
+    </ClInclude>
+    <ClInclude Include="BehaviourTree.h">
+      <Filter>AISystem\AIBrain</Filter>
+    </ClInclude>
+    <ClInclude Include="CompositeNodes.h">
+      <Filter>AISystem\AITakSheduler</Filter>
+    </ClInclude>
+    <ClInclude Include="TestNode.h">
+      <Filter>AISystem\AITakSheduler\AITaksNodes</Filter>
+    </ClInclude>
+    <ClInclude Include="CombatNode.h">
+      <Filter>AISystem\AITakSheduler\AITaksNodes</Filter>
+    </ClInclude>
+    <ClInclude Include="DeathNode.h">
+      <Filter>AISystem\AITakSheduler\AITaksNodes</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionNodes.h">
+      <Filter>AISystem\AITakSheduler\AITaksNodes</Filter>
+    </ClInclude>
+    <ClInclude Include="Task.h">
+      <Filter>AISystem\AITakSheduler\AITaksNodes</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskManager.h">
+      <Filter>AISystem\AITakSheduler</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskNodes.h">
+      <Filter>AISystem\AITakSheduler\AITaksNodes</Filter>
+    </ClInclude>
+    <ClInclude Include="AIManager.h">
+      <Filter>AISystem\AIBrain</Filter>
+    </ClInclude>
+    <ClInclude Include="Routine.h">
+      <Filter>AISystem\AITakSheduler</Filter>
+    </ClInclude>
+    <ClInclude Include="RoutineManager.h">
+      <Filter>AISystem\AITakSheduler</Filter>
+    </ClInclude>
+    <ClInclude Include="RoutineNodes.h">
+      <Filter>AISystem\AITakSheduler\AITaksNodes</Filter>
+    </ClInclude>
+    <ClInclude Include="AttackComponent.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="CombatNodes.h">
+      <Filter>AISystem\AITakSheduler\AITaksNodes</Filter>
+    </ClInclude>
+    <ClInclude Include="AStarComponent.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundLibrary.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FontLibrary.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="fragment_shader.frag">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="vertex_shader.vert">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

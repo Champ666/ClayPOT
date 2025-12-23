@@ -114,7 +114,6 @@ Traditional game engines like Unreal and Unity abstract away the underlying comp
 
 2. **Prerequisites**
    - Visual Studio 2022 (Community Edition works)
-   - SFML 2.5.1 libraries
    - C++17 capable compiler
 
 3. **Build the project**

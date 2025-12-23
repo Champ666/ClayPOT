@@ -46,7 +46,7 @@ Traditional game engines like Unreal and Unity abstract away the underlying comp
 
 ### AI & Pathfinding
 - **Behaviour Tree Framework**: Node-based AI decision-making system
-- **A* Pathfinding**: Optimal shortest-path calculation for NPC movement
+- **A * Heuristic Pathfinding**: Optimal shortest-path calculation for NPC movement
 - **Blackboard Pattern**: Shared memory system for AI agent communication
 - **Intelligent NPC Behavior**: Combat, patrol, and chase mechanics
 

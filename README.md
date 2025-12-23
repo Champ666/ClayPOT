@@ -130,46 +130,61 @@ Traditional game engines like Unreal and Unity abstract away the underlying comp
 
 When you launch `ClayPOT.exe`, you'll see the **Main Menu**:
 
-![Engine Startup](./Resources/screenshots/startup.png)
+![Engine Startup](./Steps/1.png)
 
-The main interface displays:
-- Game title and logo
-- Menu buttons for different engine modes
-- FPS counter and performance metrics
 
 ### File Menu Options
 
 Click the **File** button in the menu to access the following options:
 
-![File Menu Dropdown](./Resources/screenshots/file_menu.png)
+![File Menu Dropdown](./Steps/2.png)
+
+### Creating New Map
+
+When you launch `ClayPOT.exe`, you'll see the **Main Menu**:
+
+![Engine Startup](./Steps/3.png)
+
+
+### Filled attributes
+Click the **File** button in the menu to access the following options:
+
+![File Menu Dropdown](./Steps/4.png)
+
+### Map had been set
+
+When you launch `ClayPOT.exe`, you'll see the **Main Menu**:
+
+![Engine Startup](./Steps/5.png)
+
+
+#### Editor Mode
+- **Left Click**: Select and place tiles
+- **Right Click**: Remove tiles
+- **Scroll**: Zoom in/out
+- **Middle Mouse**: Pan the view
+
+
+### Main Menu State
+
+Click the **File** button in the menu to access the following options:
+
+![File Menu Dropdown](./Steps/6.png)
+
 
 #### Available Options:
 
-1. **New Game**
+1. **Play Game**
    - Starts a fresh gameplay session
    - Loads the default map and player character
    - Resets all game state and variables
-
-2. **Load Game**
-   - Opens saved game files (if save system is implemented)
-   - Browse and select previous save points
-   - Resume gameplay from saved position
-
-3. **Level Editor**
-   - Opens the built-in tile-based level editor
-   - Create and edit custom game maps
-   - Place tiles, set collision areas, and position entities
-   - Save maps for use in games
-
-4. **Settings**
+   - 
+2. **Settings**
    - Configure graphics quality and resolution
-   - Adjust audio levels
-   - Customize control bindings
    - Toggle fullscreen mode
 
-5. **Exit**
+3. **Exit**
    - Gracefully shut down the engine
-   - All unsaved work will be lost (save before exiting)
 
 ### In-Game Controls
 
@@ -179,12 +194,6 @@ Click the **File** button in the menu to access the following options:
 
 #### Combat
 - **Left Click**: Attack in the direction facing
-
-#### Editor Mode
-- **Left Click**: Select and place tiles
-- **Right Click**: Remove tiles
-- **Scroll**: Zoom in/out
-- **Middle Mouse**: Pan the view
 
 ---
 

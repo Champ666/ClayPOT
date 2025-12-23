@@ -20,7 +20,7 @@
 
 - **Entity Component System (ECS)** architecture for flexible object management
 - **Behaviour Trees** for intelligent NPC AI and decision-making
-- **A* Pathfinding Algorithm** for optimal path calculation and navigation
+- **A * Heuristic Algorithm** for optimal path calculation and navigation
 - **Grid-Based Tile System** for map management and collision detection
 - **AABB Collision Detection** for efficient physics simulation
 

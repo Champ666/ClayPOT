@@ -108,7 +108,7 @@ Traditional game engines like Unreal and Unity abstract away the underlying comp
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/ClayPOT.git
+   git clone https://github.com/Uzair62/ClayPOT.git
    cd ClayPOT
    ```
 

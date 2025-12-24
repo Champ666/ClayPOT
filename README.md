@@ -234,7 +234,7 @@ When creating a new map:
 
 ## 📂 Repository Structure
 
-<div align="center">
+<div>
 
 ```
 ClayPOT/

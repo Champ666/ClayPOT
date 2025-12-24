@@ -139,7 +139,7 @@ Engine window should open immediately
 
 **1. Clone the repository**
 ```bash
-git clone https://github.com/yourusername/ClayPOT.git
+git clone https://github.com/Uzair62/ClayPOT.git
 cd ClayPOT
 ```
 
@@ -166,35 +166,33 @@ cd ClayPOT
 
 ### Launching the Application
 
-When you launch `ClayPOT.exe`, you'll see the **Main Menu Screen**:
+When you launch `ClayPOT.exe`, you'll see the **Editor Menu Screen**:
 
 <div align="center">
 
 ```
-┌──────────────────────────────────────┐
-│      🏺 ClayPOT Game Engine 🏺      │
-│                                      │
-│         ► Play Game                  │
-│         ► Level Editor               │
-│         ► Settings                   │
-│         ► Exit                       │
-└──────────────────────────────────────┘
+┌───────────────────────────────────────────┐
+│      🏺 ClayPOT Game Engine Editor🏺      │
+│                                           │
+│         ► File                            │
+│           ► Open                          │
+│           ► New                           │
+│           ► Save                          │
+└───────────────────────────────────────────┘
 ```
 
 </div>
 
-### File Menu Options
+### Main Menu Options
 
-Click the **File** button to access:
+Click the **Play** button to access Main Menu:
 
 <div align="center">
 
 | Option | Description |
 |--------|-------------|
 | **New Game** | Start a fresh gameplay session with loaded map |
-| **Load Game** | Resume from a previously saved save point |
-| **Level Editor** | Create and edit custom tile-based maps |
-| **Settings** | Configure graphics, audio, and controls |
+| **Settings** | Configure graphics |
 | **Exit** | Gracefully close the engine |
 
 </div>
@@ -226,13 +224,11 @@ When creating a new map:
 ### In-Game Controls
 
 #### Movement & Interaction
-- **WASD** or **Arrow Keys**: Move player character
-- **Space**: Interact with NPCs and objects
-- **E**: Secondary action
+- **WASD**: Move player character
+- **E**: Interact with NPCs
 
 #### Combat
 - **Left Click**: Attack in facing direction
-- **Right Click**: Use special ability
 
 ---
 

@@ -45,7 +45,7 @@ Traditional game engines like Unreal and Unity abstract away the underlying comp
 
 ## ✨ Key Features
 
-<table align="center">
+<table align="">
   <tr>
     <td width="50%">
       <h3>🎮 Core Engine Systems</h3>
@@ -92,7 +92,7 @@ Traditional game engines like Unreal and Unity abstract away the underlying comp
 
 ## 🎯 Technologies & Dependencies
 
-<div align="center">
+<div align="">
 
 | Component | Technology | Version |
 |:-:|:-:|:-:|
@@ -112,7 +112,7 @@ Traditional game engines like Unreal and Unity abstract away the underlying comp
 
 ### Option 1: Run Pre-Built Executable ⭐ (Recommended)
 
-<div align="center">
+<div align="">
 
 **1. Download the executable folder**
 ```
@@ -135,7 +135,7 @@ Engine window should open immediately
 
 ### Option 2: Build from Source Code
 
-<div align="center">
+<div align="">
 
 **1. Clone the repository**
 ```bash
@@ -168,7 +168,7 @@ cd ClayPOT
 
 When you launch `ClayPOT.exe`, you'll see the **Editor Menu Screen**:
 
-<div align="center">
+<div align="">
 
 ```
 ┌───────────────────────────────────────────┐
@@ -187,7 +187,7 @@ When you launch `ClayPOT.exe`, you'll see the **Editor Menu Screen**:
 
 Click the **Play** button to access Main Menu:
 
-<div align="center">
+<div align="">
 
 | Option | Description |
 |--------|-------------|
@@ -205,7 +205,7 @@ When creating a new map:
 2. **Set tile size** (only 64x64 is supported currently)
 3. **Use these controls**:
 
-<div align="center">
+<div align="">
 
 | Control | Action |
 |---------|--------|
@@ -267,7 +267,7 @@ ClayPOT/
 
 ### Entity Component System (ECS)
 
-<div align="center">
+<div align="">
 
 ```
 Entity (Game Object)
@@ -284,7 +284,7 @@ Entity (Game Object)
 
 ### Behaviour Trees
 
-<div align="center">
+<div align="">
 
 ```
       Root Node
@@ -319,7 +319,7 @@ IsNear  Chase  Check  Health
 
 ## 🔧 Troubleshooting
 
-<div align="center">
+<div align="">
 
 | Problem | Solution |
 |---------|----------|
@@ -340,7 +340,7 @@ IsNear  Chase  Check  Health
 
 We welcome contributions! Here's how:
 
-<div align="center">
+<div align="">
 
 ```
 1. Fork the repository
@@ -365,7 +365,7 @@ We welcome contributions! Here's how:
 
 ## 👨‍💻 Author & Credits
 
-<div align="center">
+<div align="">
 
 **[Uzair Kayani]**
 
@@ -390,7 +390,7 @@ We welcome contributions! Here's how:
 
 ## 🐛 Report Issues
 
-<div align="center">
+<div align="">
 
 **Found a bug or have a feature request?**
 
@@ -408,7 +408,7 @@ Please provide:
 
 ## ⭐ Show Your Support
 
-<div align="center">
+<div align="">
 
 If ClayPOT helped you learn or inspired your own project, please consider:
 
@@ -421,7 +421,7 @@ If ClayPOT helped you learn or inspired your own project, please consider:
 
 ---
 
-<div align="center">
+<div align="">
 
 ---
 

